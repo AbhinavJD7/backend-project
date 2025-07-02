@@ -1,8 +1,10 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .serializers import ClientUserSignupSerializer
-from .models import CustomUser
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.parsers import MultiPartParser, FormParser
+from .serializers import ClientUserSignupSerializer , SharedFileUploadSerializer
+from .models import CustomUser ,SharedFile
 from django.core.signing import Signer,BadSignature
 
 class ClientUserSignupView(APIView):
@@ -37,4 +39,18 @@ class ClientUserVerifyEmailView(APIView):
             return Response({"message": "Email verified successfully. You can now log in."})
         except (BadSignature, CustomUser.DoesNotExist):
             return Response({"message": "Invalid or expired verification link."}, status=400)
+        
+class OpsFileUploadView(APIView):
+    parser_classes = [MultiPartParser, FormParser]
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        user = request.user
+        if not hasattr(user, 'user_type') or user.user_type != 'ops':
+            return Response({"message": "Only Ops users can upload files."}, status=403)
+        serializer = SharedFileUploadSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save(uploader=user)
+            return Response({"message": "File uploaded successfully."})
+        return Response(serializer.errors, status=400)
 
