@@ -1,0 +1,1452 @@
+{
+	"info": {
+		"_postman_id": "4d9dfa66-32b8-4116-98c9-461c41a37f1c",
+		"name": "EZ_Labs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32596587"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxODc5LCJpYXQiOjE3NTE3ODE1NzksImp0aSI6ImVmNWYyZmY0MDA0YTQ5NmVhZTI2ZTY0ODYxZjQ0MzIxIiwidXNlcl9pZCI6NX0.h9VasW8oxdqfJTRxaw4As8fYl-Ih5puf-gJX3n6lIaI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-file",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/signup/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"testclient\",\n  \"email\": \"testclient@example.com\",\n  \"password\": \"testpassword123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/signup/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"signup",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/signup/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"clientuser2\",\n  \"email\": \"clientuser2@example.com\",\n  \"password\": \"StrongPassw0rd!\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/signup/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"signup",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/verify-email/?token=3:MgwjOr5A2GJvmDBJYlQ9nfGx6xEUuKBfJGgZAcOItHc",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/verify-email/?token=3:MgwjOr5A2GJvmDBJYlQ9nfGx6xEUuKBfJGgZAcOItHc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"verify-email",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "3:MgwjOr5A2GJvmDBJYlQ9nfGx6xEUuKBfJGgZAcOItHc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"clientuser2\",\n  \"password\": \"StrongPassw0rd!\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNDM3MjMxLCJpYXQiOjE3NTE0MzY5MzEsImp0aSI6IjdlOTg0MGNlMTg2NTRjMDFhZjQ4MzViOTQyNzE5NDNjIiwidXNlcl9pZCI6M30.qkyj1PzYoBiffmkpUAak1DI69NuvzaHy3TXF796C8PY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"clientuser2\",\n  \"password\": \"StrongPassw0rd!\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1MTUyMzkzMiwiaWF0IjoxNzUxNDM3NTMyLCJqdGkiOiIxOGMwYmRkNzE0YzU0ZDcyOTc1MWYyMTQyN2RjYjU4YyIsInVzZXJfaWQiOjN9.NxYSt_N8tqRIRdAay7cNW3Sw9zmWl0khuwnjfVkbKb4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1MTUyMzkzMiwiaWF0IjoxNzUxNDM3NTMyLCJqdGkiOiIxOGMwYmRkNzE0YzU0ZDcyOTc1MWYyMTQyN2RjYjU4YyIsInVzZXJfaWQiOjN9.NxYSt_N8tqRIRdAay7cNW3Sw9zmWl0khuwnjfVkbKb4\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"Nitya\",\n  \"password\": \"Nitya@1502\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"abhinav\",\n  \"password\": \"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/files/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzc4NzY4LCJpYXQiOjE3NTE3Nzg0NjgsImp0aSI6IjlkZGZjZmExMzk4MzRhODJiZDUxM2EyNmNkMDdiM2RlIiwidXNlcl9pZCI6NH0.E7ilr8hj3ygGeuWFlURvZmp8C9VFhBzLAm0rYfaHpJE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/files/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"files",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/signup/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"client3\",\n  \"email\": \"client3@example.com\",\n  \"password\": \"SomeStrongPassword123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/signup/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"signup",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/files/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzc5MjEyLCJpYXQiOjE3NTE3Nzg5MTIsImp0aSI6IjI1NWEwM2U3MGQ4MDQ5MGFiNTkyYjc1MzE5Njk1ODZlIiwidXNlcl9pZCI6NX0.6v4eEXwTh-t2uNVSA82LrTWE3MA7v13pNJJ59toMvwY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/files/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"files",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"Nitya\",\n  \"password\": \"Nitya@1502\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"abhinav\",\n  \"password\": \"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzc5NzIyLCJpYXQiOjE3NTE3Nzk0MjIsImp0aSI6IjIxN2I5YWRiZTQ2NTQyZGQ4MDZhZThiNGZiNjFmMDRkIiwidXNlcl9pZCI6MX0.r8UILv49rKj1Dv9kRLnceHlLHsBS5XzfJ0mWO96WZJo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "File",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					],
+					"query": [
+						{
+							"key": "File",
+							"value": ".docx",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"ops2\",\n  \"password\": \"ops2@1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgwNzQ5LCJpYXQiOjE3NTE3ODA0NDksImp0aSI6IjFlY2Q0MTZkOTdkNjQ3MzQ4ZjgxNGNmMjgyNWM0YzY3IiwidXNlcl9pZCI6N30.ZJ6tIEGWC6ZQELcmE8DTkgiCosqgBDqOTNlS1MgdpOw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "File",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					],
+					"query": [
+						{
+							"key": "File",
+							"value": ".docx",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"ops2\",\n  \"password\": \"ops2@1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxMTE4LCJpYXQiOjE3NTE3ODA4MTgsImp0aSI6ImM3OTQwMGE2YmJjYTQ3ZDY5ZmNlYmUxYzUxZjAyMjBjIiwidXNlcl9pZCI6N30.SNxA6pAugiOc33jAUeiissZe3CKcA5TbLUcl_L96chY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "File",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					],
+					"query": [
+						{
+							"key": "File",
+							"value": ".docx",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/?File=.docx",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxMTE4LCJpYXQiOjE3NTE3ODA4MTgsImp0aSI6ImM3OTQwMGE2YmJjYTQ3ZDY5ZmNlYmUxYzUxZjAyMjBjIiwidXNlcl9pZCI6N30.SNxA6pAugiOc33jAUeiissZe3CKcA5TbLUcl_L96chY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "File",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/?File=.docx",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					],
+					"query": [
+						{
+							"key": "File",
+							"value": ".docx"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ops/upload/?File=.docx",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxMTE4LCJpYXQiOjE3NTE3ODA4MTgsImp0aSI6ImM3OTQwMGE2YmJjYTQ3ZDY5ZmNlYmUxYzUxZjAyMjBjIiwidXNlcl9pZCI6N30.SNxA6pAugiOc33jAUeiissZe3CKcA5TbLUcl_L96chY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "File",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/ops/upload/?File=.docx",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					],
+					"query": [
+						{
+							"key": "File",
+							"value": ".docx"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"client3\",\n  \"password\": \"SomeStrongPassword123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/files/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxNjU2LCJpYXQiOjE3NTE3ODEzNTYsImp0aSI6IjVmNzFmYzk2ODkyODQ0YTZiYmI2MDYwNTBmZjVhN2U3IiwidXNlcl9pZCI6NX0.7oujPApps2DvfknbWcg3MNT_KQlJWelsgeOTnVpDNBU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/files/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"files",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-link/1/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-link/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-link",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-link/1/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxNjU2LCJpYXQiOjE3NTE3ODEzNTYsImp0aSI6IjVmNzFmYzk2ODkyODQ0YTZiYmI2MDYwNTBmZjVhN2U3IiwidXNlcl9pZCI6NX0.7oujPApps2DvfknbWcg3MNT_KQlJWelsgeOTnVpDNBU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-link/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-link",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxNjU2LCJpYXQiOjE3NTE3ODEzNTYsImp0aSI6IjVmNzFmYzk2ODkyODQ0YTZiYmI2MDYwNTBmZjVhN2U3IiwidXNlcl9pZCI6NX0.7oujPApps2DvfknbWcg3MNT_KQlJWelsgeOTnVpDNBU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-file",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxNjU2LCJpYXQiOjE3NTE3ODEzNTYsImp0aSI6IjVmNzFmYzk2ODkyODQ0YTZiYmI2MDYwNTBmZjVhN2U3IiwidXNlcl9pZCI6NX0.7oujPApps2DvfknbWcg3MNT_KQlJWelsgeOTnVpDNBU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-file",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"client3\",\n  \"password\": \"SomeStrongPassword123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/client/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxODc5LCJpYXQiOjE3NTE3ODE1NzksImp0aSI6ImVmNWYyZmY0MDA0YTQ5NmVhZTI2ZTY0ODYxZjQ0MzIxIiwidXNlcl9pZCI6NX0.h9VasW8oxdqfJTRxaw4As8fYl-Ih5puf-gJX3n6lIaI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-file",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-file/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxODc5LCJpYXQiOjE3NTE3ODE1NzksImp0aSI6ImVmNWYyZmY0MDA0YTQ5NmVhZTI2ZTY0ODYxZjQ0MzIxIiwidXNlcl9pZCI6NX0.h9VasW8oxdqfJTRxaw4As8fYl-Ih5puf-gJX3n6lIaI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-file/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-file",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxODc5LCJpYXQiOjE3NTE3ODE1NzksImp0aSI6ImVmNWYyZmY0MDA0YTQ5NmVhZTI2ZTY0ODYxZjQ0MzIxIiwidXNlcl9pZCI6NX0.h9VasW8oxdqfJTRxaw4As8fYl-Ih5puf-gJX3n6lIaI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-file",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxODc5LCJpYXQiOjE3NTE3ODE1NzksImp0aSI6ImVmNWYyZmY0MDA0YTQ5NmVhZTI2ZTY0ODYxZjQ0MzIxIiwidXNlcl9pZCI6NX0.h9VasW8oxdqfJTRxaw4As8fYl-Ih5puf-gJX3n6lIaI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-file",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzgxODc5LCJpYXQiOjE3NTE3ODE1NzksImp0aSI6ImVmNWYyZmY0MDA0YTQ5NmVhZTI2ZTY0ODYxZjQ0MzIxIiwidXNlcl9pZCI6NX0.h9VasW8oxdqfJTRxaw4As8fYl-Ih5puf-gJX3n6lIaI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/client/download-file/?token=1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"client",
+						"download-file",
+						""
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "1:5:FQT2UEbLMrIssKqOGQDiprAIqg50V8BVBStWeBxrX7Q"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

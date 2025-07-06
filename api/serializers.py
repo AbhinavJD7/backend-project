@@ -32,4 +32,9 @@ class SharedFileUploadSerializer(serializers.ModelSerializer):
         if ext not in allowed_types:
             raise serializers.ValidationError('Only .pptx, .docx, .xlsx files are allowed.')
         return value
+    
+class SharedFileListSerializer(serializers.ModelSerializer):
+     class Meta:
+        model = SharedFile
+        fields = ['id', 'file', 'uploaded_at', 'uploader']
 
