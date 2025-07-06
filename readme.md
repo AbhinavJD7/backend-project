@@ -115,7 +115,3 @@ Built with **Django**, **Django REST Framework**, and **JWT authentication**.
 ## Thank You!
 
 ---
-
-*Feel free to add or tweak sections (requirements.txt, contact info, etc.) as needed!*
-
----
